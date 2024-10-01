@@ -98,7 +98,7 @@ The interface displays both English and Arabic captions
 ### Expected output
 ![Screenshot 2024-10-01 193547](https://github.com/user-attachments/assets/94b02075-ba34-4073-b393-fbd7148fa399)
 
-## Text Extraction
+## Text Extraction Function
 * The code begins by loading two pre-trained models using the pipeline function from the Hugging Face Transformers library.
 
   The first model is for image-to-text conversion 
@@ -133,7 +133,7 @@ def extract_text(image):
 ### Expected output
 ![Screenshot 2024-10-01 193607](https://github.com/user-attachments/assets/3f485d24-1dd0-4800-97b3-021160bbf42a)
 
-## Handwritten Text Extraction
+## Handwritten Text Extraction Function
 * The code begins by loading two pre-trained models:
 
   First checkpoint model, the TrOCRProcessor is specifically designed for extracting handwritten text.
@@ -172,7 +172,7 @@ def recognize_handwritten_text(image2):
 demo = gr.TabbedInterface([img_cap_en_ar, text_recognition, handwritten_rec], ["Extract_Caption", " Extract_Digital_text", " Extract_HandWritten_text"])
 demo.launch(debug=True)
 ```
-# Project Limitation
+## Project Limitation
 * #### In Image Captioning Task: 
 
   The slider for adjust the minimum and maximum caption lengths works well in Notebook, but for some reasons it doesn't work when uploaded to Huggingface. Therefore, I initialized a static values for minimum and maximum caption lengths 
@@ -180,13 +180,13 @@ demo.launch(debug=True)
 * #### In Handwritten Text Extraction Task: 
 
   I expected that the model can handle a multi line document, but it can only handle single line of text.
-# Python Notebook of Project
+## Python Notebook of Project
 [Image Captioiong and Text Recognition Notebook](https://github.com/kawther12h/Image_Captioning-and-Text_Recognition/blob/main/FinalPro_Image_Captioning_and_Text_Recognition.ipynb)
-# Hugging Face project page
+## Hugging Face project page
 [Hugging Face project space](https://huggingface.co/spaces/Kawthar12h/Image_Captioning_Text_Recognition)
-# Presentation Slids
+## Presentation Slids
 [Presentation](https://www.canva.com/design/DAGSWiBC-iw/FOD-uV-PYUe57jGPH_RwTA/view?utm_content=DAGSWiBC-iw&utm_campaign=designshare&utm_medium=link&utm_source=editor)
-# Explaination Video
+## Explaination Video
 [Explaination Video](https://drive.google.com/file/d/1cSZaDledF1A3vQSbk0S1Y83VorwYcZ1h/view?usp=sharing)
 
 
