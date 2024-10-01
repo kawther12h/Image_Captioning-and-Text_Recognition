@@ -95,7 +95,7 @@ def caption_and_translate(img, min_len, max_len):
 Users can upload an image and adjust the minimum and maximum caption lengths.
 The interface displays both English and Arabic captions
 
-### Ecpected output
+### Expected output
 ![Screenshot 2024-10-01 193547](https://github.com/user-attachments/assets/94b02075-ba34-4073-b393-fbd7148fa399)
 
 ## Text Extraction
@@ -130,7 +130,7 @@ def extract_text(image):
 ```
 * The  Gradio interface ```text_recognition``` for user interaction.
  user can upload an image to the Gradio interface, and it will extract text from the image and display both the original and translated versions.
-### Ecpected output
+### Expected output
 ![Screenshot 2024-10-01 193607](https://github.com/user-attachments/assets/3f485d24-1dd0-4800-97b3-021160bbf42a)
 
 ## Handwritten Text Extraction
@@ -163,7 +163,7 @@ def recognize_handwritten_text(image2):
 ```
 * The  Gradio interface ```handwritten_rec``` for user interaction.
  user can upload an image to the Gradio interface, and it will extract handwritten text from the image and display both the original and translated versions.
-### Ecpected output
+### Expected output
 ![Screenshot 2024-10-01 193628](https://github.com/user-attachments/assets/4a91a3e1-5a32-45bc-a4d9-d1ddccfb3062)
 
 ## Integrate interfaces
@@ -180,6 +180,8 @@ demo.launch(debug=True)
 * #### In Handwritten Text Extraction Task: 
 
   I expected that the model can handle a multi line document, but it can only handle single line of text.
+# Python Notebook of Project
+[Image Captioiong and Text Recognition Notebook](https://github.com/kawther12h/Image_Captioning-and-Text_Recognition/blob/main/FinalPro_Image_Captioning_and_Text_Recognition.ipynb)
 # Hugging Face project page
 [Hugging Face project space](https://huggingface.co/spaces/Kawthar12h/Image_Captioning_Text_Recognition)
 # Explaination Video
