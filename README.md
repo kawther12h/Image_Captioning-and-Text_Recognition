@@ -96,7 +96,8 @@ Users can upload an image and adjust the minimum and maximum caption lengths.
 The interface displays both English and Arabic captions
 
 ### Ecpected output
-IIIIIIIIIIImmmmmmmmmmmmaaaaaaaaaagggggggggggeeeeeeeeeee
+![Screenshot 2024-10-01 193547](https://github.com/user-attachments/assets/94b02075-ba34-4073-b393-fbd7148fa399)
+
 ## Text Extraction
 * The code begins by loading two pre-trained models using the pipeline function from the Hugging Face Transformers library.
 
@@ -130,7 +131,7 @@ def extract_text(image):
 * The  Gradio interface ```text_recognition``` for user interaction.
  user can upload an image to the Gradio interface, and it will extract text from the image and display both the original and translated versions.
 ### Ecpected output
-IIIIIIIIIIImmmmmmmmmmmmaaaaaaaaaagggggggggggeeeeeeeeeee
+![Screenshot 2024-10-01 193607](https://github.com/user-attachments/assets/3f485d24-1dd0-4800-97b3-021160bbf42a)
 
 ## Handwritten Text Extraction
 * The code begins by loading two pre-trained models:
@@ -163,7 +164,7 @@ def recognize_handwritten_text(image2):
 * The  Gradio interface ```handwritten_rec``` for user interaction.
  user can upload an image to the Gradio interface, and it will extract handwritten text from the image and display both the original and translated versions.
 ### Ecpected output
-IIIIIIIIIIImmmmmmmmmmmmaaaaaaaaaagggggggggggeeeeeeeeeee
+![Screenshot 2024-10-01 193628](https://github.com/user-attachments/assets/4a91a3e1-5a32-45bc-a4d9-d1ddccfb3062)
 
 ## Integrate interfaces
 * Combine all interfaces into a tabbed interface in Gradio.
@@ -182,7 +183,6 @@ demo.launch(debug=True)
 # Hugging Face project page
 [Hugging Face project space](https://huggingface.co/spaces/Kawthar12h/Image_Captioning_Text_Recognition)
 # Explaination Video
-[Explaination Video]
+[Explaination Video](https://drive.google.com/file/d/1cSZaDledF1A3vQSbk0S1Y83VorwYcZ1h/view?usp=sharing)
 
 
-[MIT](https://choosealicense.com/licenses/mit/)
