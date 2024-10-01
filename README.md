@@ -184,6 +184,8 @@ demo.launch(debug=True)
 [Image Captioiong and Text Recognition Notebook](https://github.com/kawther12h/Image_Captioning-and-Text_Recognition/blob/main/FinalPro_Image_Captioning_and_Text_Recognition.ipynb)
 # Hugging Face project page
 [Hugging Face project space](https://huggingface.co/spaces/Kawthar12h/Image_Captioning_Text_Recognition)
+# Presentation Slids
+[Presentation](https://www.canva.com/design/DAGSWiBC-iw/FOD-uV-PYUe57jGPH_RwTA/view?utm_content=DAGSWiBC-iw&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 # Explaination Video
 [Explaination Video](https://drive.google.com/file/d/1cSZaDledF1A3vQSbk0S1Y83VorwYcZ1h/view?usp=sharing)
 
